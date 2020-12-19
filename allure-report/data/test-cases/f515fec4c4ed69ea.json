@@ -1,0 +1,59 @@
+{
+  "uid" : "f515fec4c4ed69ea",
+  "name" : "test_add[int]",
+  "fullName" : "test_parm_yaml#test_add",
+  "historyId" : "0e58bbf41fa632acf5188c12bb5ba09a",
+  "time" : {
+    "start" : 1608357466066,
+    "stop" : 1608357466066,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_parm_yaml"
+  }, {
+    "name" : "host",
+    "value" : "airdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "21652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_parm_yaml"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "3"
+  }, {
+    "name" : "b",
+    "value" : "5"
+  }, {
+    "name" : "expected",
+    "value" : "8"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f515fec4c4ed69ea.json",
+  "parameterValues" : [ "3", "5", "8" ]
+}

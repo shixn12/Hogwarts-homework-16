@@ -1,0 +1,71 @@
+{
+  "uid" : "a4e875c58f22b5ff",
+  "name" : "test_one[参数2]",
+  "fullName" : "test_fixture.Test_firstFile#test_one",
+  "historyId" : "539a48615dc685e58eca31121dc7434d",
+  "time" : {
+    "start" : 1608357465935,
+    "stop" : 1608357465935,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "myfixture",
+    "time" : {
+      "start" : 1608357465934,
+      "stop" : 1608357465934,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_fixture"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_firstFile"
+  }, {
+    "name" : "host",
+    "value" : "airdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "21652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_fixture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "myfixture",
+    "value" : "'参数2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4e875c58f22b5ff.json",
+  "parameterValues" : [ "'参数2'" ]
+}

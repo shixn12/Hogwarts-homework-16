@@ -1,0 +1,62 @@
+{
+  "uid" : "5b5d110f885e167e",
+  "name" : "test_answer[1-1]",
+  "fullName" : "test_one#test_answer",
+  "historyId" : "e6a260d60b14febe8e6c44c515d6dd66",
+  "time" : {
+    "start" : 1608357465981,
+    "stop" : 1608357465982,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 2 == 1\n  +2\n  -1",
+  "statusTrace" : "a = 1, b = 1\n\n    @pytest.mark.parametrize(\"a,b\",[(1,1),(1,2),(5,5)])\n    def test_answer(a,b):\n>       assert func(a) == b\nE       assert 2 == 1\nE         +2\nE         -1\n\ntest_one.py:13: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_one"
+  }, {
+    "name" : "host",
+    "value" : "airdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "21652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_one"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "1"
+  }, {
+    "name" : "b",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5b5d110f885e167e.json",
+  "parameterValues" : [ "1", "1" ]
+}

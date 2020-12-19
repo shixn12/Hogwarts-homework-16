@@ -1,0 +1,86 @@
+{
+  "uid" : "7343e0e479050e12",
+  "name" : "test_three[--参数2]",
+  "fullName" : "test_fixture.Test_firstFile#test_three",
+  "historyId" : "631eb7110a2048c23744d63803c270a4",
+  "time" : {
+    "start" : 1608357465957,
+    "stop" : 1608357465958,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "connectdb",
+    "time" : {
+      "start" : 1608357465956,
+      "stop" : 1608357465957,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "connectdb::0",
+    "time" : {
+      "start" : 1608357465959,
+      "stop" : 1608357465959,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_fixture"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_firstFile"
+  }, {
+    "name" : "host",
+    "value" : "airdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "21652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_fixture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "connectdb",
+    "value" : "'--参数2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7343e0e479050e12.json",
+  "parameterValues" : [ "'--参数2'" ]
+}

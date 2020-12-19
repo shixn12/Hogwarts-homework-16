@@ -1,0 +1,56 @@
+{
+  "uid" : "de65465575a5763d",
+  "name" : "test_one",
+  "fullName" : "test_mark.TestOne#test_one",
+  "historyId" : "82cb99c470a74c08d32b060294c7fe74",
+  "time" : {
+    "start" : 1608357465967,
+    "stop" : 1608357465967,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demo"
+  }, {
+    "name" : "suite",
+    "value" : "test_mark"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOne"
+  }, {
+    "name" : "host",
+    "value" : "airdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "21652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_mark"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demo" ]
+  },
+  "source" : "de65465575a5763d.json",
+  "parameterValues" : [ ]
+}

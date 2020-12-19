@@ -1,0 +1,56 @@
+{
+  "uid" : "5f8bfc73d3e4368c",
+  "name" : "test_answer[1-2]",
+  "fullName" : "test_one#test_answer",
+  "historyId" : "f8c98cbcafb831a7b3e16fcd3c7319e7",
+  "time" : {
+    "start" : 1608357466002,
+    "stop" : 1608357466002,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_one"
+  }, {
+    "name" : "host",
+    "value" : "airdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "21652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_one"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "1"
+  }, {
+    "name" : "b",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f8bfc73d3e4368c.json",
+  "parameterValues" : [ "1", "2" ]
+}
